@@ -1,0 +1,74 @@
+event.externalId,set.event.name,set.event.categoryObject,set.event.categoryBehavior,set.event.categoryTechnique,set.event.categoryOutcome,set.event.categorySignificance,set.event.categoryDeviceGroup
+100,Task Started,/Host/Application,/Execute/Start,,/Success,,/Application
+101,Task Start Failed,/Host/Application,/Execute/Start,,/Failure,,/Application
+102,Task completed,/Host/Application,/Execute/Stop,,/Success,,/Application
+103,Action start failed,/Host/Application,/Execute/Start,,/Failure,,/Application
+104,Task scheduler failed to logon,/Host/Application,/Authentication/Verify,,/Failure,,/Application
+105,Impersonation failure,/Host/Application,/Authorization/Verify,,/Failure,,/Application
+106,Task registered,/Host/Application,/Modify/Configuration,,/Success,,/Application
+107,Task triggered on scheduler,/Host/Application,/Execute/Start,,/Success,,/Application
+108,Task triggered on event,/Host/Application,/Execute/Start,,/Success,,/Application
+109,Task triggered on registration,/Host/Application,/Execute/Start,,/Success,,/Application
+110,Task launched,/Host/Application,/Execute/Start,,/Success,,/Application
+111,Task terminated,/Host/Application,/Execute/Stop,,/Success,,/Application
+112,Launch condition not met - network unavailable,/Host/Application,/Execute/Start,,/Failure,,/Application
+113,Task Registered - Invalid triggers,/Host/Application,/Modify/Configuration,,/Failure,,/Application
+114,Missed task started,/Host/Application,/Execute/Start,,/Success,,/Application
+115,Task Scheduler failed to roll back a transaction,/Host/Application,/Modify/Configuration,,/Failure,,/Application
+116,Task saved - Incorrect Credentials,/Host/Application,/Modify/Configuration,,/Failure,,/Application
+117,Task triggered on Idle,/Host/Application,/Execute/Start,,/Success,,/Application
+118,Task triggered by computer startup,/Host/Application,/Execute/Start,,/Success,,/Application
+119,Task triggered on logon,/Host/Application,/Execute/Start,,/Success,,/Application
+120,Task triggered on console connection,/Host/Application,/Execute/Start,,/Success,,/Application
+121,Task triggered on disconnection,/Host/Application,/Execute/Start,,/Success,,/Application
+122,Task triggered on remote connection,/Host/Application,/Execute/Start,,/Success,,/Application
+123,Task triggered on remote disconnect,/Host/Application,/Execute/Start,,/Success,,/Application
+124,Task triggered by locking the computer,/Host/Application,/Execute/Start,,/Success,,/Application
+125,Task triggered by unlocking the computer,/Host/Application,/Execute/Start,,/Success,,/Application
+126,Task restarted on failure,/Host/Application,/Execute/Start,,/Attempt,,/Application
+127,Task restarting following failure,/Host/Application,/Execute/Start,,/Attempt,,/Application
+128,Task did not launch due to timing,/Host/Application,/Execute/Start,,/Failure,,/Application
+129,Created Task Process,/Host/Application,/Execute/Start,,/Success,,/Application
+130,Task service busy,/Host/Application,/Found/Exhausted,,,,/Application
+131,Launch condition not met - quota exceeded,/Host/Application,/Found/Exhausted,,,,/Application
+132,Launch condition warning - quota approaching,/Host/Application,,,,,/Application
+135,Launch condition not met - machine not idle,/Host/Application,,,,,/Application
+140,Task registration updated,/Host/Application,/Modify/Configuration,,/Success,,/Application
+141,Task registration deleted,/Host/Application,/Modify/Configuration,,/Success,,/Application
+142,Task disabled,/Host/Application,/Modify/Configuration,,/Success,,/Application
+145,Task Scheduler woke up the computer to run a task,/Host/Application,/Execute/Start,,/Success,,/Application
+150,Task Scheduler failed to subscribe the event trigger,/Host/Application,/Execute/Start,,/Failure,,/Application
+200,Action started,/Host/Application,/Execute/Start,,/Success,,/Application
+201,Action completed,/Host/Application,/Execute/Stop,,/Success,,/Application
+202,Task action failed,/Host/Application,/Execute/Response,,/Failure,,/Application
+203,Action failed to start,/Host/Application,/Execute/Response,,/Failure,,/Application
+204,Task failed to retrieve event,/Host/Application,/Execute/Response,,/Failure,,/Application
+205,Task failed to match events,/Host/Application,/Execute/Response,,/Failure,,/Application
+301,Task engine properly shut down,/Host/Application,/Execute/Stop,,/Success,,/Application
+305,Task Scheduler failure,/Host/Application,/Execute/Response,,/Failure,,/Application
+310,Task Engine started,/Host/Application,/Execute/Start,,/Success,,/Application
+314,Task Engine idle,/Host/Application,/Execute/Query,,/Success,,/Application
+317,Task Engine started,/Host/Application,/Execute/Start,,/Success,,/Application
+318,Task engine properly shut down,/Host/Application,/Execute/Stop,,/Success,,/Application
+319,Task Engine received message to start task,/Host/Application,/Execute/Start,,/Success,,/Application
+320,Task Engine received message to stop task,/Host/Application,/Execute/Stop,,/Success,,/Application
+322,Launch request ignored - instance already running,/Host/Application,/Execute/Query,,,,/Application
+323,Task launch stopped - restarting new instance,/Host/Application,/Execute/Start,,/Failure,,/Application
+324,Task launch queued,/Host/Application,/Execute/Start,,/Success,,/Application
+326,Launch condition not met - computer on batteries,/Host/Application,/Execute/Start,,/Failure,,/Application
+327,Task stopping due to  switching to batteries,/Host/Application,/Execute/Stop,,/Success,,/Application
+328,Task stopping due to computer not idle,/Host/Application,/Execute/Stop,,/Success,,/Application
+329,Task stopping due to timeout,/Host/Application,/Execute/Stop,,/Success,,/Application
+330,Task stopping due to user request,/Host/Application,/Execute/Stop,,/Success,,/Application
+331,Task timeout failure,/Host/Application,/Execute/Stop,,/Success,,/Application
+332,Service started,/Host/Application/Service,/Execute/Start,,/Success,,/Application
+411,Service signaled time change,/Host/Application,/Modify/Configuration,,/Success,,/Application
+406,Failed to initialise credentials store,/Host/Application,/Execute/Query,,/Failure,,/Application
+408,Failed to initialise idle state detection,/Host/Application,/Execute/Query,,/Failure,,/Application
+410,failed to set wakeup timer,/Host/Application,/Execute/Query,,/Failure,,/Application
+700,Compatibility module started,/Host/Application,/Execute/Start,,/Success,,/Application
+705,Task Compatibility module failed,/Host/Application,/Execute/Start,,/Failure,,/Application
+706,Task Compatibility module failed to update task,/Host/Application,/Modify/Configuration,,/Failure,,/Application
+707,Task Compatibility module failed to delete task,/Host/Application,/Modify/Configuration,,/Failure,,/Application
+708,Task Compatibility module failed to set security descriptor ,/Host/Application,/Modify/Configuration,,/Failure,,/Application
+709,Task Compatibility module failed to update task,/Host/Application,/Modify/Configuration,,/Failure,,/Application
