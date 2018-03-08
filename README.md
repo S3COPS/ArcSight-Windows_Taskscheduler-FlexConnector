@@ -13,3 +13,6 @@ Copy the fcp folder and the contents to the CONNECTOR_HOME/current/user/agent/ f
 Add the following Event Log to the Windows Native Connector Custom Log section:Microsoft-Windows-TaskScheduler/Operational
 
 Restart the Windows Native Connector
+
+USE CASE
+Track changes to scheduled tasks to detect attempts to persist access or create suspicious scheduled tasks - typically seen in Ransomware
